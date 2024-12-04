@@ -6,7 +6,7 @@
 - tailwindcss
 - vite
 - nodejs/npm/npx
-- js/html/css
+- js/html/css/ts
 
 ### Courses
 - https://freecoursesite.com/vue-js-2-the-complete-guide-incl-vue-router-vuex-24/
