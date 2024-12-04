@@ -2,6 +2,12 @@
 - 30 days
 - start 03.12.2024
 
+### Next
+- tailwindcss
+- vite
+- nodejs/npm/npx
+- js/html/css
+
 ### Courses
 - https://freecoursesite.com/vue-js-2-the-complete-guide-incl-vue-router-vuex-24/
 - https://freecoursesite.com/complete-vue-mastery-2021-w-vuex-composition-api-router-1/
