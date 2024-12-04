@@ -2,6 +2,8 @@
 - 30 days
 - start 03.12.2024
 
+### Раздать свега монро
+
 ### Next
 - tailwindcss
 - vite
