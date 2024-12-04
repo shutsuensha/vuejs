@@ -1,3 +1,7 @@
+### VS code development frontend
+- Settings - Editor: Tab Size - 2
+- Shift + Alt + F - Format code
+
 ### Init project
 ```sh
 npm create vue@latest
