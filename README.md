@@ -7,9 +7,11 @@
 - day 5 - 07.12.2024
 - day 6 - 08.12.2024
 
-### Next
+### Stack
+- vuejs3
 - tailwindcss
-- animation library
+- https://github.com/primefaces/primeicons
+- animation library (future)
 
 ### Courses
 - https://freecoursesite.com/vue-js-2-the-complete-guide-incl-vue-router-vuex-24/
