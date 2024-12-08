@@ -10,7 +10,7 @@
 ### Stack
 - vuejs3
 - tailwindcss
-- https://github.com/primefaces/primeicons
+- https://primevue.org/icons
 - animation library (future)
 
 ### Courses
