@@ -9,6 +9,7 @@
 - vite
 - nodejs/npm/npx
 - js/html/css/ts
+- animation library
 
 ### Courses
 - https://freecoursesite.com/vue-js-2-the-complete-guide-incl-vue-router-vuex-24/
