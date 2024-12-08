@@ -1,6 +1,5 @@
 ## Vuejs till i die totally (dead)
 - 30 days
-- start 03.12.2024
 - day 1 - 03.12.2024
 - day 2 - 04.12.2024
 - day 3 - 05.12.2024
@@ -8,13 +7,8 @@
 - day 5 - 07.12.2024
 - day 6 - 08.12.2024
 
-### Раздать свега монро
-
 ### Next
 - tailwindcss
-- vite
-- nodejs/npm/npx
-- js/html/css/ts
 - animation library
 
 ### Courses
