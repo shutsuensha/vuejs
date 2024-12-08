@@ -1,4 +1,4 @@
-## Vuejs till i die totally (dead) 👽
+## Vuejs till i die totally (dead) 👽👤
 - 30 days
 - day 1 - 03.12.2024
 - day 2 - 04.12.2024
