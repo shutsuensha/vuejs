@@ -33,3 +33,14 @@ npx tailwindcss init -p
 @tailwind components;
 @tailwind utilities;
 ```
+
+
+### Prime Icons Vue
+```sh
+npm install primeicons
+```
+- add import 'primeicons/primeicons.css' -> main.js
+
+
+### Vue router
+- npm install vue-router
