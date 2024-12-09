@@ -16,6 +16,7 @@
 - html/css/js/ts
 - npm/npx
 - vite?
+- axios
 
 ### Courses
 - https://freecoursesite.com/vue-js-2-the-complete-guide-incl-vue-router-vuex-24/
