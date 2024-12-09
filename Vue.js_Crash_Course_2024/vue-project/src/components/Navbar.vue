@@ -21,9 +21,14 @@ const isActiveLink = (routePath) => {
           <div class="md:ml-auto">
             <div class="flex space-x-2">
               <RouterLink to="/"
-                :class="['text-white', isActiveLink('/') ? 'bg-green-900' : '', isActiveLink('/') ? 'hover:bg-gray-900' : 'hover:bg-green-900', 'hover:text-white', 'rounded-md', 'px-3', 'py-2']">Home</RouterLink>
-              <RouterLink to="/jobs" :class="['text-white', isActiveLink('/jobs') ? 'bg-green-900' : '', isActiveLink('/jobs') ? 'hover:bg-gray-900' : 'hover:bg-green-900', 'hover:text-white', 'rounded-md', 'px-3', 'py-2']">Jobs</RouterLink>
-              <RouterLink to="/jobs/add" :class="['text-white', isActiveLink('/jobs/add') ? 'bg-green-900' : '', isActiveLink('/jobs/add') ? 'hover:bg-gray-900' : 'hover:bg-green-900', 'hover:text-white', 'rounded-md', 'px-3', 'py-2']">Add
+                :class="['text-white', isActiveLink('/') ? 'bg-green-900' : '', isActiveLink('/') ? 'hover:bg-gray-900' : 'hover:bg-green-900', 'hover:text-white', 'rounded-md', 'px-3', 'py-2']">
+                Home</RouterLink>
+              <RouterLink to="/jobs"
+                :class="['text-white', isActiveLink('/jobs') ? 'bg-green-900' : '', isActiveLink('/jobs') ? 'hover:bg-gray-900' : 'hover:bg-green-900', 'hover:text-white', 'rounded-md', 'px-3', 'py-2']">
+                Jobs</RouterLink>
+              <RouterLink to="/jobs/add"
+                :class="['text-white', isActiveLink('/jobs/add') ? 'bg-green-900' : '', isActiveLink('/jobs/add') ? 'hover:bg-gray-900' : 'hover:bg-green-900', 'hover:text-white', 'rounded-md', 'px-3', 'py-2']">
+                Add
                 Job</RouterLink>
             </div>
           </div>

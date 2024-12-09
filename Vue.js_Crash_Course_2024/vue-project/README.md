@@ -14,6 +14,11 @@ npm install
 npm run dev
 ```
 
+### Compile and Hot-Reload for Development
+```sh
+npm run server
+```
+
 ### Compile and Minify for Production
 ```sh
 npm run build
@@ -44,3 +49,15 @@ npm install primeicons
 
 ### Vue router
 - npm install vue-router
+
+### Json server
+- npm install json-server
+
+### Axios
+- npm install axios
+
+### Vue spinner
+- npm install vue-spinner
+
+### Vue toasts
+- npm i vue-toastification@next
