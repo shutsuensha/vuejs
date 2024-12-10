@@ -30,7 +30,10 @@
 - ui/ux
 - npm/npx
 - vite
-
+- ESLint
+- Prettier
+- @formkit/auto-animate
+  
 ### Courses
 - Torrents
 
