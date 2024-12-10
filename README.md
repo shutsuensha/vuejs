@@ -18,16 +18,23 @@
 - json-server
 - axios
 
+
 ### Future
+- vue virtual dom
 - Pinia
 - Firebase
+- vueX
+- nuxt
 - animation library
 - html/css/js/ts
 - ceo optimization
 - ui/ux
 - npm/npx
 - vite
-
+- ESLint
+- Prettier
+- @formkit/auto-animate
+  
 ### Courses
 - Torrents
 
@@ -39,6 +46,7 @@
 - https://www.youtube.com/watch?v=hNPwdOZ3qFU
 - https://www.youtube.com/watch?v=KTFH4P8unUQ
 - https://www.youtube.com/@insidewebdev/videos
+- https://www.youtube.com/watch?v=JaIA1k4FLG8
 
 ### Other
 - https://codelibrary.info/books/javascript/vue-js-v-dejstvii
