@@ -61,3 +61,4 @@ npm install primeicons
 ### Production
 - npm run build
 - npm run preview
+- https://www.netlify.com/
