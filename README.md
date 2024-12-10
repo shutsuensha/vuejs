@@ -35,4 +35,7 @@
 - https://www.youtube.com/watch?v=KTFH4P8unUQ
 - https://www.youtube.com/@insidewebdev/videos
 
--https://codelibrary.info/books/javascript/vue-js-v-dejstvii
+### Other
+- https://codelibrary.info/books/javascript/vue-js-v-dejstvii
+- https://dzen.ru/video/watch/609d76e7e510c930e30e2bf6
+- https://dzen.ru/a/ZP8P44mAcRkC0fAU
