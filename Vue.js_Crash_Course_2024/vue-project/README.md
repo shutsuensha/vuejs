@@ -9,19 +9,14 @@ cd <your-project-name>
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Dev server
 ```sh
 npm run dev
 ```
 
-### Compile and Hot-Reload for Development
+### Json server
 ```sh
 npm run server
-```
-
-### Compile and Minify for Production
-```sh
-npm run build
 ```
 
 ### Tailwind css install + configure
@@ -61,3 +56,8 @@ npm install primeicons
 
 ### Vue toasts
 - npm i vue-toastification@next
+
+
+### Production
+- npm run build
+- npm run preview

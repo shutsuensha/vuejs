@@ -1,9 +1,9 @@
 <script setup>
-import router from '@/router'
-import { reactive } from 'vue'
+import { reactive, onMounted } from 'vue';
+import axios from 'axios'
+import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useToast } from 'vue-toastification';
-import axios from 'axios'
 
 const form = reactive({
   type: 'Full-Time',
@@ -19,30 +19,58 @@ const form = reactive({
   }
 })
 
-const route = useRoute()
-const router = useRouter()
 const toast = useToast()
 
+const state = reactive({
+  job: {},
+  isLoading: true
+})
+
+const router = useRouter()
+const route = useRoute()
 const jobId = route.params.id
 
-async function addJob() {
+onMounted(async () => {
   try {
-    const response = await axios.post('/api/jobs', form)
-    toast.success('Job Added Successfully')
-    router.push(`/job/${response.data.id}`)
+    const response = await axios.get(`/api/jobs/${jobId}`)
+    state.job = response.data
+    form.type = state.job.type
+    form.title = state.job.title
+    form.description = state.job.description
+    form.salary = state.job.salary
+    form.location = state.job.location
+    form.company.name = state.job.company.name
+    form.company.description = state.job.company.description
+    form.company.contactEmail = state.job.company.contactEmail
+    form.company.contactPhone = state.job.company.contactPhone
   } catch (error) {
     console.error('Error fetchig job', error)
-    toast.error('Job was Not Added')
+  } finally {
+    state.isLoading = false
+  }
+})
+
+async function updateJob() {
+  try {
+    await axios.put(`/api/jobs/${jobId}`, form)
+    toast.success('Job Updated Successfully')
+    router.push(`/job/${jobId}`)
+  } catch (error) {
+    console.error('Error updateing job', error)
+    toast.error('Erorr updating job')
   }
 }
 </script>
 
 
 <template>
-  <section class="bg-green-50">
+  <div v-if="state.isLoading" class="text-center text-gray-500 py-6">
+    <PulseLoader />
+  </div>
+  <section v-else class="bg-green-50">
     <div class="container m-auto max-w-2xl py-24">
       <div class="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
-        <form @submit.prevent="addJob">
+        <form @submit.prevent="updateJob">
           <h2 class="text-3xl text-center font-semibold mb-6">Edit Job</h2>
 
           <div class="mb-4">
