@@ -18,9 +18,12 @@
 - json-server
 - axios
 
+
 ### Future
 - Pinia
 - Firebase
+- vueX
+- nuxt
 - animation library
 - html/css/js/ts
 - ceo optimization
