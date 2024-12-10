@@ -20,6 +20,7 @@
 
 
 ### Future
+- vue virtual dom
 - Pinia
 - Firebase
 - vueX
