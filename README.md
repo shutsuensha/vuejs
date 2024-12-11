@@ -26,7 +26,8 @@
 - vueX
 - nuxt
 - animation library
-- html/css/js/ts
+- html/css
+- js/ts
 - ceo optimization
 - ui/ux
 - npm/npx
