@@ -7,6 +7,7 @@
 - day 5 - 07.12.2024
 - day 6 - 08.12.2024
 - day 7 - 09.12.2024
+- day 8 - 10.12.2024
 
 ### Stack
 - vue
@@ -20,19 +21,17 @@
 
 
 ### Future
-- vue virtual dom
 - Pinia
 - Firebase
 - vueX
 - nuxt
 - animation library
-- html/css/js/ts
+- html/css
+- js/ts
 - ceo optimization
 - ui/ux
 - npm/npx
 - vite
-- ESLint
-- Prettier
 - @formkit/auto-animate
   
 ### Courses
@@ -47,6 +46,8 @@
 - https://www.youtube.com/watch?v=KTFH4P8unUQ
 - https://www.youtube.com/@insidewebdev/videos
 - https://www.youtube.com/watch?v=JaIA1k4FLG8
+- https://www.youtube.com/watch?v=bGtDimebyoA
+
 
 ### Other
 - https://codelibrary.info/books/javascript/vue-js-v-dejstvii
