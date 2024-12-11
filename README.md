@@ -48,6 +48,8 @@
 - https://www.youtube.com/watch?v=KTFH4P8unUQ
 - https://www.youtube.com/@insidewebdev/videos
 - https://www.youtube.com/watch?v=JaIA1k4FLG8
+- https://www.youtube.com/watch?v=bGtDimebyoA
+
 
 ### Other
 - https://codelibrary.info/books/javascript/vue-js-v-dejstvii
