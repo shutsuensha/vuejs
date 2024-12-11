@@ -21,7 +21,6 @@
 
 
 ### Future
-- vue virtual dom
 - Pinia
 - Firebase
 - vueX
@@ -32,8 +31,6 @@
 - ui/ux
 - npm/npx
 - vite
-- ESLint
-- Prettier
 - @formkit/auto-animate
   
 ### Courses
