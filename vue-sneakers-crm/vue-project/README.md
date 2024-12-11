@@ -7,9 +7,11 @@
 ### Github Project
 - https://github.com/Archakov06/vue-sneakers
 
+### Youtube
+- https://www.youtube.com/watch?v=U_-Ht_v-oAs&t=8922s
+
 ### Init
 - npm create vue@latest
-- add jsx, ESLint, Prettier
 - cd vue-project
 - npm install
 

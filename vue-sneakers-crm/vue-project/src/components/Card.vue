@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps({
+defineProps({
   title: String,
   imageUrl: String,
   price: Number,
@@ -8,10 +8,6 @@ const props = defineProps({
   onClickAdd: Function,
   onClickFavorite: Function
 })
-
-function toogleAddRemove() {
-
-}
 </script>
 
 <template>
