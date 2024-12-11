@@ -9,6 +9,9 @@
 - day 7 - 09.12.2024
 - day 8 - 10.12.2024
 
+
+![alt text](453531e3f4a83c73f1d4200b5f093d00.jpg)
+
 ### Stack
 - vue
 - vue-router
@@ -33,6 +36,7 @@
 - npm/npx
 - vite
 - @formkit/auto-animate
+- flowbite
   
 ### Courses
 - Torrents
