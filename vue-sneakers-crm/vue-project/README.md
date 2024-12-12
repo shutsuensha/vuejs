@@ -2,7 +2,7 @@
 - https://www.youtube.com/watch?v=dnfdrvuHFks
 
 ### Rest API
-- https://604781a0efa572c1.mokky.dev/items
+- https://78be8e41fc239fc6.mokky.dev/items
 
 ### Github Project
 - https://github.com/Archakov06/vue-sneakers

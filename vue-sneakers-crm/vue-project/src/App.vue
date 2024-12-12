@@ -10,6 +10,12 @@ const items = ref([])
 const sortBy = ref('')
 const searchQuery = ref('')
 
+const openBasket = ref(false)
+
+const basketItems = ref([])
+
+const totalPrice = ref(0)
+
 
 onMounted(async () => {
   try {
@@ -18,6 +24,7 @@ onMounted(async () => {
   } catch (error) {
     console.error(error)
   }
+
 })
 
 watch(sortBy, async () => {
@@ -37,12 +44,40 @@ watch(searchQuery, async () => {
     console.error(error)
   }
 })
+
+watch(openBasket, async (newOpenBasket) => {
+  if (newOpenBasket === true) {
+    try {
+      const response = await axios.get('https://78be8e41fc239fc6.mokky.dev/items')
+      basketItems.value = response.data.filter((el) => el.isAdded === true)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+})
+
+function deleteBusketItem(itemBusketId) {
+  basketItems.value = basketItems.value.filter((el) => el.id !== itemBusketId)
+  const itemToUpdate = items.value.find(item => item.id === itemBusketId)
+  itemToUpdate.isAdded = false
+}
+
+watch(
+  items,
+  (newItems) => {
+    newItems = newItems.filter((el) => el.isAdded === true)
+    totalPrice.value = newItems.reduce((sum, item) => sum + item.price, 0);
+  },
+  { deep: true }
+);
+
 </script>
 
 <template>
-  <!-- <Drawer /> -->
+  <Drawer @deleteItemBusket="(itemBusketId) => deleteBusketItem(itemBusketId)" :basketItems="basketItems"
+    v-if="openBasket" @response="(childClose) => openBasket = childClose" />
   <div class="bg-white w-4/5 m-auto rounded-xl shadow-xl mt-14">
-    <Header />
+    <Header :totalPrice="totalPrice" @response="(childOpen) => openBasket = childOpen" />
 
     <div class="p-10">
       <div class="flex justify-between items-center mb-2">
@@ -61,7 +96,7 @@ watch(searchQuery, async () => {
         </div>
       </div>
 
-      <CardList :items="items"/>
+      <CardList :items="items" />
     </div>
   </div>
 </template>
