@@ -3,6 +3,7 @@ import Header from './components/Header.vue';
 import CardList from './components/CardList.vue';
 import Drawer from './components/Drawer.vue';
 import { onMounted, ref, watch } from 'vue';
+import { RouterView } from 'vue-router';
 import axios from 'axios'
 
 const items = ref([])
@@ -74,10 +75,11 @@ watch(
 </script>
 
 <template>
-  <Drawer @deleteItemBusket="(itemBusketId) => deleteBusketItem(itemBusketId)" :basketItems="basketItems"
-    v-if="openBasket" @response="(childClose) => openBasket = childClose" />
   <div class="bg-white w-4/5 m-auto rounded-xl shadow-xl mt-14">
     <Header :totalPrice="totalPrice" @response="(childOpen) => openBasket = childOpen" />
+    <Drawer @deleteItemBusket="(itemBusketId) => deleteBusketItem(itemBusketId)" :basketItems="basketItems"
+      v-if="openBasket" @response="(childClose) => openBasket = childClose" />
+
 
     <div class="p-10">
       <div class="flex justify-between items-center mb-2">

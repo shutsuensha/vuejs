@@ -9,6 +9,6 @@ defineProps({
 
 <template>
 	<div class="flex flex-col gap-4">
-		<CartItem @deleteItemBusket="(itemBusketId) => emit('deleteItemBusket', itemBusketId)" v-for="item in basketItems" :key="item.id" :item="item"/>
+		<CartItem v-auto-animate="{ duration: 100 }" @deleteItemBusket="(itemBusketId) => emit('deleteItemBusket', itemBusketId)" v-for="item in basketItems" :key="item.id" :item="item"/>
 	</div>
 </template>
