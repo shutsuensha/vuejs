@@ -27,7 +27,7 @@
 - ui/ux
 - npm/npx
 - vite
-- @formkit/auto-animate
+- @formkit/auto-animate - https://auto-animate.formkit.com/
 - flowbite
 - LocalStorage, sessionStorage
 - Cockies
