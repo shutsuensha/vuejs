@@ -1,5 +1,5 @@
 ## Vuejs till i die totally (dead) 👽👤
-###  03.12.2024 - ...
+###  03.12.2024 - 12.12.2024
 
 
 ![alt text](453531e3f4a83c73f1d4200b5f093d00.jpg)
@@ -27,8 +27,10 @@
 - ui/ux
 - npm/npx
 - vite
-- @formkit/auto-animate
+- @formkit/auto-animate - https://auto-animate.formkit.com/
 - flowbite
+- LocalStorage, sessionStorage
+- Cockies
   
 ### Courses
 - Torrents
